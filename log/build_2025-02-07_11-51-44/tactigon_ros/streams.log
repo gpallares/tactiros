@@ -1,0 +1,23 @@
+[1.329s] Invoking command in '/home/banjov2/ros2_ws/src/tactigon_ros': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/banjov2/ros2_ws/build/tactigon_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/banjov2/ros2_ws/install/tactigon_ros/lib/python3.12/site-packages:/home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages:/home/banjov2/ros2_ws/install/tactigon_ros/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tactigon_ros build --build-base /home/banjov2/ros2_ws/build/tactigon_ros/build install --record /home/banjov2/ros2_ws/build/tactigon_ros/install.log --single-version-externally-managed install_data
+[1.742s] running egg_info
+[1.771s] writing ../../build/tactigon_ros/tactigon_ros.egg-info/PKG-INFO
+[1.771s] writing dependency_links to ../../build/tactigon_ros/tactigon_ros.egg-info/dependency_links.txt
+[1.771s] writing entry points to ../../build/tactigon_ros/tactigon_ros.egg-info/entry_points.txt
+[1.772s] writing requirements to ../../build/tactigon_ros/tactigon_ros.egg-info/requires.txt
+[1.772s] writing top-level names to ../../build/tactigon_ros/tactigon_ros.egg-info/top_level.txt
+[1.818s] reading manifest file '../../build/tactigon_ros/tactigon_ros.egg-info/SOURCES.txt'
+[1.821s] writing manifest file '../../build/tactigon_ros/tactigon_ros.egg-info/SOURCES.txt'
+[1.821s] running build
+[1.822s] running build_py
+[1.822s] running install
+[1.838s] running install_lib
+[1.874s] running install_data
+[1.875s] running install_egg_info
+[1.896s] removing '/home/banjov2/ros2_ws/install/tactigon_ros/lib/python3.12/site-packages/tactigon_ros-0.0.0-py3.12.egg-info' (and everything under it)
+[1.896s] Copying ../../build/tactigon_ros/tactigon_ros.egg-info to /home/banjov2/ros2_ws/install/tactigon_ros/lib/python3.12/site-packages/tactigon_ros-0.0.0-py3.12.egg-info
+[1.897s] running install_scripts
+[2.096s] Installing tactigon_data script to /home/banjov2/ros2_ws/install/tactigon_ros/lib/tactigon_ros
+[2.097s] Installing tactigon_logger script to /home/banjov2/ros2_ws/install/tactigon_ros/lib/tactigon_ros
+[2.097s] Installing tactigon_turtlesim_controller script to /home/banjov2/ros2_ws/install/tactigon_ros/lib/tactigon_ros
+[2.097s] writing list of installed files to '/home/banjov2/ros2_ws/build/tactigon_ros/install.log'
+[2.140s] Invoked command in '/home/banjov2/ros2_ws/src/tactigon_ros' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/banjov2/ros2_ws/build/tactigon_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/banjov2/ros2_ws/install/tactigon_ros/lib/python3.12/site-packages:/home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages:/home/banjov2/ros2_ws/install/tactigon_ros/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tactigon_ros build --build-base /home/banjov2/ros2_ws/build/tactigon_ros/build install --record /home/banjov2/ros2_ws/build/tactigon_ros/install.log --single-version-externally-managed install_data

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "tactigon_msgs__py",
+		"source" : "/home/banjov2/ros2_ws/build/tactigon_msgs/tactigon_msgs__py"
+	}
+}

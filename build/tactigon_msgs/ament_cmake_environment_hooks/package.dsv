@@ -1,0 +1,4 @@
+source;share/tactigon_msgs/local_setup.bash
+source;share/tactigon_msgs/local_setup.dsv
+source;share/tactigon_msgs/local_setup.sh
+source;share/tactigon_msgs/local_setup.zsh

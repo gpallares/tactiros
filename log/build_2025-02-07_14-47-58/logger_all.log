@@ -1,0 +1,389 @@
+[0.116s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.117s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b6165d7b890>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b6165d7b530>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b6165d7b530>>, mixin_verb=('build',))
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.161s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/banjov2/ros2_ws'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extension 'ros'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extensions ['cmake', 'python']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extension 'cmake'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extension 'python'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extensions ['python_setup_py']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extension 'python_setup_py'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(examples/audio) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(examples/audio) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(examples/audio) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(examples/audio) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(examples/audio) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(examples/audio) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(examples/audio) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(examples/audio) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(examples/audio) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(examples/audio) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(examples/audio) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(examples/audio) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(examples/audio) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(examples/audio) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(examples/braccio) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(examples/braccio) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(examples/braccio) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(examples/braccio) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(examples/braccio) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(examples/braccio) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(examples/braccio) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(examples/braccio) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(examples/braccio) by extension 'ros'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(examples/braccio) by extensions ['cmake', 'python']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(examples/braccio) by extension 'cmake'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(examples/braccio) by extension 'python'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(examples/braccio) by extensions ['python_setup_py']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(examples/braccio) by extension 'python_setup_py'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(examples/braccio/arduino_code) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(examples/braccio/arduino_code) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(examples/braccio/arduino_code) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(examples/braccio/arduino_code) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(examples/braccio/arduino_code) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(examples/braccio/arduino_code) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(examples/braccio/arduino_code) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(examples/braccio/arduino_code) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(examples/braccio/arduino_code) by extension 'ros'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(examples/braccio/arduino_code) by extensions ['cmake', 'python']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(examples/braccio/arduino_code) by extension 'cmake'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(examples/braccio/arduino_code) by extension 'python'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(examples/braccio/arduino_code) by extensions ['python_setup_py']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(examples/braccio/arduino_code) by extension 'python_setup_py'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask) by extension 'ros'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask) by extensions ['cmake', 'python']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask) by extension 'cmake'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask) by extension 'python'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask) by extensions ['python_setup_py']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask) by extension 'python_setup_py'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/extensions) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/extensions) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/extensions) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/extensions) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/extensions) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/extensions) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/extensions) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/extensions) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/extensions) by extension 'ros'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/extensions) by extensions ['cmake', 'python']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/extensions) by extension 'cmake'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/extensions) by extension 'python'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/extensions) by extensions ['python_setup_py']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/extensions) by extension 'python_setup_py'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static) by extension 'ros'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static) by extensions ['cmake', 'python']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static) by extension 'cmake'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static) by extension 'python'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static) by extensions ['python_setup_py']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static) by extension 'python_setup_py'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static/css) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static/css) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static/css) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static/css) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static/css) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static/css) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static/css) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static/css) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static/css) by extension 'ros'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static/css) by extensions ['cmake', 'python']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static/css) by extension 'cmake'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static/css) by extension 'python'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static/css) by extensions ['python_setup_py']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static/css) by extension 'python_setup_py'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static/images) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static/images) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static/images) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static/images) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static/images) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static/images) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static/images) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static/images) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static/images) by extension 'ros'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static/images) by extensions ['cmake', 'python']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static/images) by extension 'cmake'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static/images) by extension 'python'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static/images) by extensions ['python_setup_py']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/static/images) by extension 'python_setup_py'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/templates) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/templates) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/templates) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/templates) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/templates) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/templates) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/templates) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/templates) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/templates) by extension 'ros'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/templates) by extensions ['cmake', 'python']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/templates) by extension 'cmake'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/templates) by extension 'python'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/templates) by extensions ['python_setup_py']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/templates) by extension 'python_setup_py'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/templates/main) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/templates/main) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/templates/main) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/templates/main) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/templates/main) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/templates/main) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/templates/main) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/templates/main) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/templates/main) by extension 'ros'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/templates/main) by extensions ['cmake', 'python']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/templates/main) by extension 'cmake'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/templates/main) by extension 'python'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/templates/main) by extensions ['python_setup_py']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(examples/flask/templates/main) by extension 'python_setup_py'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(examples/gear) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(examples/gear) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(examples/gear) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(examples/gear) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(examples/gear) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(examples/gear) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(examples/gear) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(examples/gear) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(examples/gear) by extension 'ros'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(examples/gear) by extensions ['cmake', 'python']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(examples/gear) by extension 'cmake'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(examples/gear) by extension 'python'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(examples/gear) by extensions ['python_setup_py']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(examples/gear) by extension 'python_setup_py'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(examples/speech) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(examples/speech) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(examples/speech) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(examples/speech) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(examples/speech) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(examples/speech) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(examples/speech) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(examples/speech) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(examples/speech) by extension 'ros'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(examples/speech) by extensions ['cmake', 'python']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(examples/speech) by extension 'cmake'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(examples/speech) by extension 'python'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(examples/speech) by extensions ['python_setup_py']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(examples/speech) by extension 'python_setup_py'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/tactigon_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/tactigon_msgs) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/tactigon_msgs) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/tactigon_msgs) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/tactigon_msgs) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/tactigon_msgs) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/tactigon_msgs) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/tactigon_msgs) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/tactigon_msgs) by extension 'ros'
+[0.204s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tactigon_msgs' with type 'ros.ament_cmake' and name 'tactigon_msgs'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/tactigon_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/tactigon_ros) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/tactigon_ros) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/tactigon_ros) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/tactigon_ros) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/tactigon_ros) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/tactigon_ros) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/tactigon_ros) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/tactigon_ros) by extension 'ros'
+[0.206s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tactigon_ros' with type 'ros.ament_python' and name 'tactigon_ros'
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.228s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/banjov2/ros2_ws/install
+[0.229s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/jazzy
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'tactigon_msgs' build argument 'cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'tactigon_msgs' build argument 'cmake_target' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'tactigon_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'tactigon_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'tactigon_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'tactigon_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'tactigon_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'tactigon_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'tactigon_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.276s] DEBUG:colcon.colcon_core.verb:Building package 'tactigon_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/banjov2/ros2_ws/build/tactigon_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/banjov2/ros2_ws/install/tactigon_msgs', 'merge_install': False, 'path': '/home/banjov2/ros2_ws/src/tactigon_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'tactigon_ros' build argument 'cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'tactigon_ros' build argument 'cmake_target' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'tactigon_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'tactigon_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'tactigon_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'tactigon_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'tactigon_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'tactigon_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'tactigon_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.276s] DEBUG:colcon.colcon_core.verb:Building package 'tactigon_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/banjov2/ros2_ws/build/tactigon_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/banjov2/ros2_ws/install/tactigon_ros', 'merge_install': False, 'path': '/home/banjov2/ros2_ws/src/tactigon_ros', 'symlink_install': False, 'test_result_base': None}
+[0.277s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.278s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.278s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/banjov2/ros2_ws/src/tactigon_msgs' with build type 'ament_cmake'
+[0.278s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/banjov2/ros2_ws/src/tactigon_msgs'
+[0.280s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.281s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.281s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.292s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/banjov2/ros2_ws/build/tactigon_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/banjov2/ros2_ws/install/tactigon_ros:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/banjov2/ros2_ws/build/tactigon_msgs -- -j8 -l8
+[0.779s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/banjov2/ros2_ws/build/tactigon_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/banjov2/ros2_ws/install/tactigon_ros:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/banjov2/ros2_ws/build/tactigon_msgs -- -j8 -l8
+[0.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/banjov2/ros2_ws/build/tactigon_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/banjov2/ros2_ws/install/tactigon_ros:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/banjov2/ros2_ws/build/tactigon_msgs
+[0.856s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tactigon_msgs)
+[0.859s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/banjov2/ros2_ws/build/tactigon_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/banjov2/ros2_ws/install/tactigon_ros:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/banjov2/ros2_ws/build/tactigon_msgs
+[0.860s] Level 1:colcon.colcon_core.environment:checking '/home/banjov2/ros2_ws/install/tactigon_msgs' for CMake module files
+[0.861s] Level 1:colcon.colcon_core.environment:checking '/home/banjov2/ros2_ws/install/tactigon_msgs' for CMake config files
+[0.861s] Level 1:colcon.colcon_core.shell:create_environment_hook('tactigon_msgs', 'cmake_prefix_path')
+[0.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/hook/cmake_prefix_path.ps1'
+[0.862s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/hook/cmake_prefix_path.dsv'
+[0.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/hook/cmake_prefix_path.sh'
+[0.863s] Level 1:colcon.colcon_core.environment:checking '/home/banjov2/ros2_ws/install/tactigon_msgs/lib'
+[0.864s] Level 1:colcon.colcon_core.shell:create_environment_hook('tactigon_msgs', 'ld_library_path_lib')
+[0.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/hook/ld_library_path_lib.ps1'
+[0.864s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/hook/ld_library_path_lib.dsv'
+[0.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/hook/ld_library_path_lib.sh'
+[0.865s] Level 1:colcon.colcon_core.environment:checking '/home/banjov2/ros2_ws/install/tactigon_msgs/bin'
+[0.865s] Level 1:colcon.colcon_core.environment:checking '/home/banjov2/ros2_ws/install/tactigon_msgs/lib/pkgconfig/tactigon_msgs.pc'
+[0.865s] Level 1:colcon.colcon_core.environment:checking '/home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages'
+[0.865s] Level 1:colcon.colcon_core.shell:create_environment_hook('tactigon_msgs', 'pythonpath')
+[0.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/hook/pythonpath.ps1'
+[0.866s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/hook/pythonpath.dsv'
+[0.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/hook/pythonpath.sh'
+[0.867s] Level 1:colcon.colcon_core.environment:checking '/home/banjov2/ros2_ws/install/tactigon_msgs/bin'
+[0.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/package.ps1'
+[0.868s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/package.dsv'
+[0.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/package.sh'
+[0.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/package.bash'
+[0.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/package.zsh'
+[0.870s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/banjov2/ros2_ws/install/tactigon_msgs/share/colcon-core/packages/tactigon_msgs)
+[0.871s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tactigon_msgs)
+[0.871s] Level 1:colcon.colcon_core.environment:checking '/home/banjov2/ros2_ws/install/tactigon_msgs' for CMake module files
+[0.872s] Level 1:colcon.colcon_core.environment:checking '/home/banjov2/ros2_ws/install/tactigon_msgs' for CMake config files
+[0.873s] Level 1:colcon.colcon_core.shell:create_environment_hook('tactigon_msgs', 'cmake_prefix_path')
+[0.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/hook/cmake_prefix_path.ps1'
+[0.873s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/hook/cmake_prefix_path.dsv'
+[0.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/hook/cmake_prefix_path.sh'
+[0.874s] Level 1:colcon.colcon_core.environment:checking '/home/banjov2/ros2_ws/install/tactigon_msgs/lib'
+[0.874s] Level 1:colcon.colcon_core.shell:create_environment_hook('tactigon_msgs', 'ld_library_path_lib')
+[0.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/hook/ld_library_path_lib.ps1'
+[0.875s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/hook/ld_library_path_lib.dsv'
+[0.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/hook/ld_library_path_lib.sh'
+[0.875s] Level 1:colcon.colcon_core.environment:checking '/home/banjov2/ros2_ws/install/tactigon_msgs/bin'
+[0.876s] Level 1:colcon.colcon_core.environment:checking '/home/banjov2/ros2_ws/install/tactigon_msgs/lib/pkgconfig/tactigon_msgs.pc'
+[0.876s] Level 1:colcon.colcon_core.environment:checking '/home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages'
+[0.876s] Level 1:colcon.colcon_core.shell:create_environment_hook('tactigon_msgs', 'pythonpath')
+[0.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/hook/pythonpath.ps1'
+[0.877s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/hook/pythonpath.dsv'
+[0.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/hook/pythonpath.sh'
+[0.878s] Level 1:colcon.colcon_core.environment:checking '/home/banjov2/ros2_ws/install/tactigon_msgs/bin'
+[0.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/package.ps1'
+[0.879s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/package.dsv'
+[0.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/package.sh'
+[0.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/package.bash'
+[0.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/package.zsh'
+[0.881s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/banjov2/ros2_ws/install/tactigon_msgs/share/colcon-core/packages/tactigon_msgs)
+[0.882s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/banjov2/ros2_ws/src/tactigon_ros' with build type 'ament_python'
+[0.882s] Level 1:colcon.colcon_core.shell:create_environment_hook('tactigon_ros', 'ament_prefix_path')
+[0.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/banjov2/ros2_ws/install/tactigon_ros/share/tactigon_ros/hook/ament_prefix_path.ps1'
+[0.883s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/banjov2/ros2_ws/install/tactigon_ros/share/tactigon_ros/hook/ament_prefix_path.dsv'
+[0.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/banjov2/ros2_ws/install/tactigon_ros/share/tactigon_ros/hook/ament_prefix_path.sh'
+[0.885s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.885s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.132s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/banjov2/ros2_ws/src/tactigon_ros'
+[1.132s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.132s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/banjov2/ros2_ws/src/tactigon_ros': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/banjov2/ros2_ws/build/tactigon_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/banjov2/ros2_ws/install/tactigon_ros/lib/python3.12/site-packages:/home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages:/home/banjov2/ros2_ws/install/tactigon_ros/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tactigon_ros build --build-base /home/banjov2/ros2_ws/build/tactigon_ros/build install --record /home/banjov2/ros2_ws/build/tactigon_ros/install.log --single-version-externally-managed install_data
+[2.358s] Level 1:colcon.colcon_core.environment:checking '/home/banjov2/ros2_ws/install/tactigon_ros' for CMake module files
+[2.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/banjov2/ros2_ws/src/tactigon_ros' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/banjov2/ros2_ws/build/tactigon_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/banjov2/ros2_ws/install/tactigon_ros/lib/python3.12/site-packages:/home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages:/home/banjov2/ros2_ws/install/tactigon_ros/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tactigon_ros build --build-base /home/banjov2/ros2_ws/build/tactigon_ros/build install --record /home/banjov2/ros2_ws/build/tactigon_ros/install.log --single-version-externally-managed install_data
+[2.359s] Level 1:colcon.colcon_core.environment:checking '/home/banjov2/ros2_ws/install/tactigon_ros' for CMake config files
+[2.359s] Level 1:colcon.colcon_core.environment:checking '/home/banjov2/ros2_ws/install/tactigon_ros/lib'
+[2.360s] Level 1:colcon.colcon_core.environment:checking '/home/banjov2/ros2_ws/install/tactigon_ros/bin'
+[2.360s] Level 1:colcon.colcon_core.environment:checking '/home/banjov2/ros2_ws/install/tactigon_ros/lib/pkgconfig/tactigon_ros.pc'
+[2.360s] Level 1:colcon.colcon_core.environment:checking '/home/banjov2/ros2_ws/install/tactigon_ros/lib/python3.12/site-packages'
+[2.360s] Level 1:colcon.colcon_core.shell:create_environment_hook('tactigon_ros', 'pythonpath')
+[2.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/banjov2/ros2_ws/install/tactigon_ros/share/tactigon_ros/hook/pythonpath.ps1'
+[2.361s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/banjov2/ros2_ws/install/tactigon_ros/share/tactigon_ros/hook/pythonpath.dsv'
+[2.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/banjov2/ros2_ws/install/tactigon_ros/share/tactigon_ros/hook/pythonpath.sh'
+[2.362s] Level 1:colcon.colcon_core.environment:checking '/home/banjov2/ros2_ws/install/tactigon_ros/bin'
+[2.362s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tactigon_ros)
+[2.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/banjov2/ros2_ws/install/tactigon_ros/share/tactigon_ros/package.ps1'
+[2.362s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/banjov2/ros2_ws/install/tactigon_ros/share/tactigon_ros/package.dsv'
+[2.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/banjov2/ros2_ws/install/tactigon_ros/share/tactigon_ros/package.sh'
+[2.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/banjov2/ros2_ws/install/tactigon_ros/share/tactigon_ros/package.bash'
+[2.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/banjov2/ros2_ws/install/tactigon_ros/share/tactigon_ros/package.zsh'
+[2.364s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/banjov2/ros2_ws/install/tactigon_ros/share/colcon-core/packages/tactigon_ros)
+[2.364s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.365s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.365s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.365s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.372s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.373s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.373s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.388s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.389s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/banjov2/ros2_ws/install/local_setup.ps1'
+[2.390s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/banjov2/ros2_ws/install/_local_setup_util_ps1.py'
+[2.391s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/banjov2/ros2_ws/install/setup.ps1'
+[2.392s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/banjov2/ros2_ws/install/local_setup.sh'
+[2.393s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/banjov2/ros2_ws/install/_local_setup_util_sh.py'
+[2.394s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/banjov2/ros2_ws/install/setup.sh'
+[2.395s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/banjov2/ros2_ws/install/local_setup.bash'
+[2.396s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/banjov2/ros2_ws/install/setup.bash'
+[2.397s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/banjov2/ros2_ws/install/local_setup.zsh'
+[2.397s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/banjov2/ros2_ws/install/setup.zsh'

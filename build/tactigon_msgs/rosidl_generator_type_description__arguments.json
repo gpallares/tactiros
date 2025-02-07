@@ -1,0 +1,14 @@
+{
+  "package_name": "tactigon_msgs",
+  "output_dir": "/home/banjov2/ros2_ws/build/tactigon_msgs/rosidl_generator_type_description/tactigon_msgs",
+  "idl_tuples": [
+    "/home/banjov2/ros2_ws/build/tactigon_msgs/rosidl_adapter/tactigon_msgs:msg/Touch.idl",
+    "/home/banjov2/ros2_ws/build/tactigon_msgs/rosidl_adapter/tactigon_msgs:msg/Angle.idl",
+    "/home/banjov2/ros2_ws/build/tactigon_msgs/rosidl_adapter/tactigon_msgs:msg/Gesture.idl",
+    "/home/banjov2/ros2_ws/build/tactigon_msgs/rosidl_adapter/tactigon_msgs:msg/TSkinState.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

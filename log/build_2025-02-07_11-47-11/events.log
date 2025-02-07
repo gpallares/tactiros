@@ -1,0 +1,537 @@
+[0.000000] (-) TimerEvent: {}
+[0.000261] (tactigon_msgs) JobQueued: {'identifier': 'tactigon_msgs', 'dependencies': OrderedDict()}
+[0.000658] (tactigon_ros) JobQueued: {'identifier': 'tactigon_ros', 'dependencies': OrderedDict({'tactigon_msgs': '/home/banjov2/ros2_ws/install/tactigon_msgs'})}
+[0.000687] (tactigon_msgs) JobStarted: {'identifier': 'tactigon_msgs'}
+[0.020588] (tactigon_msgs) JobProgress: {'identifier': 'tactigon_msgs', 'progress': 'cmake'}
+[0.021616] (tactigon_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/banjov2/ros2_ws/src/tactigon_msgs', '-DCMAKE_INSTALL_PREFIX=/home/banjov2/ros2_ws/install/tactigon_msgs'], 'cwd': '/home/banjov2/ros2_ws/build/tactigon_msgs', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'banjov2', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/banjov2/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/snap/code/182/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/banjov2', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.97.0', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/182/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/banjov2/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/182/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/182/usr/share/code/code', 'MANAGERPID': '2531', 'SYSTEMD_EXEC_PID': '3071', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '248962', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'banjov2', 'JOURNAL_STREAM': '8:16307', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'banjov2', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/banjov2-Razer-Blade-Stealth-13-Late-2019:@/tmp/.ICE-unix/3046,unix/banjov2-Razer-Blade-Stealth-13-Late-2019:/tmp/.ICE-unix/3046', 'GTK_EXE_PREFIX': '/snap/code/182/usr', 'INVOCATION_ID': '2954677fc97b43edbd1482ea7fbbb363', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LOCPATH': '/snap/code/182/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/banjov2/snap/code/182/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-1a9be50bdb.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/banjov2/snap/code/182/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/banjov2/ros2_ws/build/tactigon_msgs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/banjov2/snap/code/182/.local/share:/home/banjov2/snap/code/182:/snap/code/182/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099500] (tactigon_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.099793] (-) TimerEvent: {}
+[0.186526] (tactigon_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.199908] (-) TimerEvent: {}
+[0.202520] (tactigon_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300065] (-) TimerEvent: {}
+[0.320676] (tactigon_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.343788] (tactigon_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.344828] (tactigon_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.346084] (tactigon_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.363436] (tactigon_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400158] (-) TimerEvent: {}
+[0.492454] (tactigon_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.500392] (-) TimerEvent: {}
+[0.502572] (tactigon_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.503025] (tactigon_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.503557] (tactigon_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.506169] (tactigon_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.600498] (-) TimerEvent: {}
+[0.700782] (-) TimerEvent: {}
+[0.727355] (tactigon_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.800914] (-) TimerEvent: {}
+[0.871249] (tactigon_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.878183] (tactigon_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.901021] (-) TimerEvent: {}
+[0.940802] (tactigon_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.995834] (tactigon_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.998521] (tactigon_msgs) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.001093] (-) TimerEvent: {}
+[1.101294] (-) TimerEvent: {}
+[1.201574] (-) TimerEvent: {}
+[1.302018] (-) TimerEvent: {}
+[1.402400] (-) TimerEvent: {}
+[1.502699] (-) TimerEvent: {}
+[1.603098] (-) TimerEvent: {}
+[1.703385] (-) TimerEvent: {}
+[1.803679] (-) TimerEvent: {}
+[1.899996] (tactigon_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.903757] (-) TimerEvent: {}
+[2.004034] (-) TimerEvent: {}
+[2.104296] (-) TimerEvent: {}
+[2.204559] (-) TimerEvent: {}
+[2.304832] (-) TimerEvent: {}
+[2.405125] (-) TimerEvent: {}
+[2.505440] (-) TimerEvent: {}
+[2.570297] (tactigon_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.605520] (-) TimerEvent: {}
+[2.705812] (-) TimerEvent: {}
+[2.806140] (-) TimerEvent: {}
+[2.906624] (-) TimerEvent: {}
+[3.007220] (-) TimerEvent: {}
+[3.107491] (-) TimerEvent: {}
+[3.207762] (-) TimerEvent: {}
+[3.308063] (-) TimerEvent: {}
+[3.408412] (-) TimerEvent: {}
+[3.409773] (tactigon_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.412322] (tactigon_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[3.508590] (-) TimerEvent: {}
+[3.608883] (-) TimerEvent: {}
+[3.609858] (tactigon_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[3.709056] (-) TimerEvent: {}
+[3.809321] (-) TimerEvent: {}
+[3.909752] (-) TimerEvent: {}
+[4.010146] (-) TimerEvent: {}
+[4.110481] (-) TimerEvent: {}
+[4.210973] (-) TimerEvent: {}
+[4.224904] (tactigon_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[4.300371] (tactigon_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[4.311068] (-) TimerEvent: {}
+[4.317723] (tactigon_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.319804] (tactigon_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.325873] (tactigon_msgs) StdoutLine: {'line': b'-- Configuring done (4.3s)\n'}
+[4.402477] (tactigon_msgs) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[4.411189] (-) TimerEvent: {}
+[4.416249] (tactigon_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/banjov2/ros2_ws/build/tactigon_msgs\n'}
+[4.433853] (tactigon_msgs) CommandEnded: {'returncode': 0}
+[4.434758] (tactigon_msgs) JobProgress: {'identifier': 'tactigon_msgs', 'progress': 'build'}
+[4.434812] (tactigon_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/banjov2/ros2_ws/build/tactigon_msgs', '--', '-j8', '-l8'], 'cwd': '/home/banjov2/ros2_ws/build/tactigon_msgs', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'banjov2', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/banjov2/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/snap/code/182/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/banjov2', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.97.0', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/182/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/banjov2/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/182/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/182/usr/share/code/code', 'MANAGERPID': '2531', 'SYSTEMD_EXEC_PID': '3071', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '248962', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'banjov2', 'JOURNAL_STREAM': '8:16307', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'banjov2', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/banjov2-Razer-Blade-Stealth-13-Late-2019:@/tmp/.ICE-unix/3046,unix/banjov2-Razer-Blade-Stealth-13-Late-2019:/tmp/.ICE-unix/3046', 'GTK_EXE_PREFIX': '/snap/code/182/usr', 'INVOCATION_ID': '2954677fc97b43edbd1482ea7fbbb363', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LOCPATH': '/snap/code/182/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/banjov2/snap/code/182/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-1a9be50bdb.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/banjov2/snap/code/182/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/banjov2/ros2_ws/build/tactigon_msgs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/banjov2/snap/code/182/.local/share:/home/banjov2/snap/code/182:/snap/code/182/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[4.507463] (tactigon_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[4.511287] (-) TimerEvent: {}
+[4.516313] (tactigon_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_tactigon_msgs\n'}
+[4.611403] (-) TimerEvent: {}
+[4.711850] (-) TimerEvent: {}
+[4.812117] (-) TimerEvent: {}
+[4.912376] (-) TimerEvent: {}
+[4.922591] (tactigon_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[4.931009] (tactigon_msgs) StdoutLine: {'line': b'creating tactigon_msgs.egg-info\n'}
+[4.974764] (tactigon_msgs) StdoutLine: {'line': b'writing tactigon_msgs.egg-info/PKG-INFO\n'}
+[4.978886] (tactigon_msgs) StdoutLine: {'line': b'writing dependency_links to tactigon_msgs.egg-info/dependency_links.txt\n'}
+[4.984751] (tactigon_msgs) StdoutLine: {'line': b'writing top-level names to tactigon_msgs.egg-info/top_level.txt\n'}
+[4.984918] (tactigon_msgs) StdoutLine: {'line': b"writing manifest file 'tactigon_msgs.egg-info/SOURCES.txt'\n"}
+[5.010864] (tactigon_msgs) StdoutLine: {'line': b'[  1%] Built target tactigon_msgs__rosidl_generator_type_description\n'}
+[5.012459] (-) TimerEvent: {}
+[5.028388] (tactigon_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.051649] (tactigon_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.112571] (-) TimerEvent: {}
+[5.118036] (tactigon_msgs) StdoutLine: {'line': b"reading manifest file 'tactigon_msgs.egg-info/SOURCES.txt'\n"}
+[5.118981] (tactigon_msgs) StdoutLine: {'line': b"writing manifest file 'tactigon_msgs.egg-info/SOURCES.txt'\n"}
+[5.175128] (tactigon_msgs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_tactigon_msgs_egg\n'}
+[5.212696] (-) TimerEvent: {}
+[5.313133] (-) TimerEvent: {}
+[5.413396] (-) TimerEvent: {}
+[5.513666] (-) TimerEvent: {}
+[5.613923] (-) TimerEvent: {}
+[5.714203] (-) TimerEvent: {}
+[5.816272] (-) TimerEvent: {}
+[5.891769] (tactigon_msgs) StdoutLine: {'line': b'[  4%] Built target tactigon_msgs__cpp\n'}
+[5.916397] (-) TimerEvent: {}
+[6.016796] (-) TimerEvent: {}
+[6.025603] (tactigon_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/tactigon_msgs__rosidl_generator_c.dir/rosidl_generator_c/tactigon_msgs/msg/detail/touch__description.c.o\x1b[0m\n'}
+[6.031099] (tactigon_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/tactigon_msgs__rosidl_generator_c.dir/rosidl_generator_c/tactigon_msgs/msg/detail/touch__type_support.c.o\x1b[0m\n'}
+[6.031638] (tactigon_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/tactigon_msgs__rosidl_generator_c.dir/rosidl_generator_c/tactigon_msgs/msg/detail/angle__description.c.o\x1b[0m\n'}
+[6.031881] (tactigon_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/tactigon_msgs__rosidl_generator_c.dir/rosidl_generator_c/tactigon_msgs/msg/detail/angle__functions.c.o\x1b[0m\n'}
+[6.032107] (tactigon_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/tactigon_msgs__rosidl_generator_c.dir/rosidl_generator_c/tactigon_msgs/msg/detail/gesture__description.c.o\x1b[0m\n'}
+[6.032510] (tactigon_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/tactigon_msgs__rosidl_generator_c.dir/rosidl_generator_c/tactigon_msgs/msg/detail/gesture__functions.c.o\x1b[0m\n'}
+[6.039838] (tactigon_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/tactigon_msgs__rosidl_generator_c.dir/rosidl_generator_c/tactigon_msgs/msg/detail/touch__functions.c.o\x1b[0m\n'}
+[6.043462] (tactigon_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/tactigon_msgs__rosidl_generator_c.dir/rosidl_generator_c/tactigon_msgs/msg/detail/angle__type_support.c.o\x1b[0m\n'}
+[6.115700] (tactigon_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/tactigon_msgs__rosidl_generator_c.dir/rosidl_generator_c/tactigon_msgs/msg/detail/gesture__type_support.c.o\x1b[0m\n'}
+[6.119272] (-) TimerEvent: {}
+[6.122864] (tactigon_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/tactigon_msgs__rosidl_generator_c.dir/rosidl_generator_c/tactigon_msgs/msg/detail/t_skin_state__functions.c.o\x1b[0m\n'}
+[6.140029] (tactigon_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/tactigon_msgs__rosidl_generator_c.dir/rosidl_generator_c/tactigon_msgs/msg/detail/t_skin_state__description.c.o\x1b[0m\n'}
+[6.151544] (tactigon_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/tactigon_msgs__rosidl_generator_c.dir/rosidl_generator_c/tactigon_msgs/msg/detail/t_skin_state__type_support.c.o\x1b[0m\n'}
+[6.219427] (-) TimerEvent: {}
+[6.250368] (tactigon_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library libtactigon_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[6.313908] (tactigon_msgs) StdoutLine: {'line': b'[ 25%] Built target tactigon_msgs__rosidl_generator_c\n'}
+[6.319534] (-) TimerEvent: {}
+[6.339837] (tactigon_msgs) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.340802] (tactigon_msgs) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.343659] (tactigon_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.349371] (tactigon_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.361099] (tactigon_msgs) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.361815] (tactigon_msgs) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.419634] (-) TimerEvent: {}
+[6.519942] (-) TimerEvent: {}
+[6.620323] (-) TimerEvent: {}
+[6.721795] (-) TimerEvent: {}
+[6.822274] (-) TimerEvent: {}
+[6.923153] (-) TimerEvent: {}
+[7.027137] (-) TimerEvent: {}
+[7.129260] (-) TimerEvent: {}
+[7.229618] (-) TimerEvent: {}
+[7.335332] (tactigon_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/tactigon_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tactigon_msgs/msg/gesture__type_support.cpp.o\x1b[0m\n'}
+[7.335702] (-) TimerEvent: {}
+[7.343260] (tactigon_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/tactigon_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tactigon_msgs/msg/touch__type_support.cpp.o\x1b[0m\n'}
+[7.343607] (tactigon_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/tactigon_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tactigon_msgs/msg/angle__type_support.cpp.o\x1b[0m\n'}
+[7.379326] (tactigon_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/tactigon_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tactigon_msgs/msg/touch__type_support.cpp.o\x1b[0m\n'}
+[7.435824] (-) TimerEvent: {}
+[7.488154] (tactigon_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/tactigon_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tactigon_msgs/msg/angle__type_support.cpp.o\x1b[0m\n'}
+[7.535950] (-) TimerEvent: {}
+[7.547735] (tactigon_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/tactigon_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tactigon_msgs/msg/t_skin_state__type_support.cpp.o\x1b[0m\n'}
+[7.560533] (tactigon_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/tactigon_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tactigon_msgs/msg/gesture__type_support.cpp.o\x1b[0m\n'}
+[7.621620] (tactigon_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/tactigon_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tactigon_msgs/msg/detail/touch__type_support.cpp.o\x1b[0m\n'}
+[7.636079] (-) TimerEvent: {}
+[7.696599] (tactigon_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/tactigon_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tactigon_msgs/msg/detail/touch__type_support.c.o\x1b[0m\n'}
+[7.714759] (tactigon_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libtactigon_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.736215] (-) TimerEvent: {}
+[7.784665] (tactigon_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/tactigon_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tactigon_msgs/msg/detail/dds_fastrtps/touch__type_support.cpp.o\x1b[0m\n'}
+[7.817260] (tactigon_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/tactigon_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tactigon_msgs/msg/detail/angle__type_support.c.o\x1b[0m\n'}
+[7.827038] (tactigon_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/tactigon_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tactigon_msgs/msg/detail/touch__type_support_c.cpp.o\x1b[0m\n'}
+[7.836331] (-) TimerEvent: {}
+[7.903817] (tactigon_msgs) StdoutLine: {'line': b'[ 54%] Built target tactigon_msgs__rosidl_typesupport_c\n'}
+[7.929618] (tactigon_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/tactigon_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tactigon_msgs/msg/detail/gesture__type_support.c.o\x1b[0m\n'}
+[7.936462] (-) TimerEvent: {}
+[7.937840] (tactigon_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/tactigon_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tactigon_msgs/msg/detail/dds_fastrtps/angle__type_support.cpp.o\x1b[0m\n'}
+[8.037126] (-) TimerEvent: {}
+[8.047594] (tactigon_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/tactigon_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tactigon_msgs/msg/detail/t_skin_state__type_support.c.o\x1b[0m\n'}
+[8.140277] (-) TimerEvent: {}
+[8.206015] (tactigon_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking C shared library libtactigon_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.240414] (-) TimerEvent: {}
+[8.340948] (-) TimerEvent: {}
+[8.347303] (tactigon_msgs) StdoutLine: {'line': b'[ 60%] Built target tactigon_msgs__rosidl_typesupport_introspection_c\n'}
+[8.365877] (tactigon_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/tactigon_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tactigon_msgs/msg/detail/angle__type_support.cpp.o\x1b[0m\n'}
+[8.390593] (tactigon_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/tactigon_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tactigon_msgs/msg/detail/dds_fastrtps/gesture__type_support.cpp.o\x1b[0m\n'}
+[8.444286] (-) TimerEvent: {}
+[8.492455] (tactigon_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/tactigon_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tactigon_msgs/msg/t_skin_state__type_support.cpp.o\x1b[0m\n'}
+[8.503276] (tactigon_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/tactigon_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tactigon_msgs/msg/detail/dds_fastrtps/t_skin_state__type_support.cpp.o\x1b[0m\n'}
+[8.547287] (-) TimerEvent: {}
+[8.622621] (tactigon_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/tactigon_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tactigon_msgs/msg/detail/angle__type_support_c.cpp.o\x1b[0m\n'}
+[8.647403] (-) TimerEvent: {}
+[8.747839] (-) TimerEvent: {}
+[8.848279] (-) TimerEvent: {}
+[8.948753] (-) TimerEvent: {}
+[9.052937] (-) TimerEvent: {}
+[9.153372] (-) TimerEvent: {}
+[9.254278] (-) TimerEvent: {}
+[9.282363] (tactigon_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/tactigon_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tactigon_msgs/msg/detail/gesture__type_support_c.cpp.o\x1b[0m\n'}
+[9.354413] (-) TimerEvent: {}
+[9.457403] (-) TimerEvent: {}
+[9.511927] (tactigon_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/tactigon_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tactigon_msgs/msg/detail/t_skin_state__type_support_c.cpp.o\x1b[0m\n'}
+[9.557532] (-) TimerEvent: {}
+[9.571565] (tactigon_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/tactigon_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tactigon_msgs/msg/detail/gesture__type_support.cpp.o\x1b[0m\n'}
+[9.585125] (tactigon_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libtactigon_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.657665] (-) TimerEvent: {}
+[9.667512] (tactigon_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/tactigon_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tactigon_msgs/msg/detail/t_skin_state__type_support.cpp.o\x1b[0m\n'}
+[9.711359] (tactigon_msgs) StdoutLine: {'line': b'[ 76%] Built target tactigon_msgs__rosidl_typesupport_cpp\n'}
+[9.757784] (-) TimerEvent: {}
+[9.860799] (-) TimerEvent: {}
+[9.957774] (tactigon_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libtactigon_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.960903] (-) TimerEvent: {}
+[10.062304] (-) TimerEvent: {}
+[10.131432] (tactigon_msgs) StdoutLine: {'line': b'[ 78%] Built target tactigon_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[10.166288] (-) TimerEvent: {}
+[10.266754] (-) TimerEvent: {}
+[10.367241] (-) TimerEvent: {}
+[10.429460] (tactigon_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libtactigon_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[10.467341] (-) TimerEvent: {}
+[10.564090] (tactigon_msgs) StdoutLine: {'line': b'[ 79%] Built target tactigon_msgs__rosidl_typesupport_introspection_cpp\n'}
+[10.567437] (-) TimerEvent: {}
+[10.651490] (tactigon_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared library libtactigon_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.667581] (-) TimerEvent: {}
+[10.754847] (tactigon_msgs) StdoutLine: {'line': b'[ 81%] Built target tactigon_msgs__rosidl_typesupport_fastrtps_c\n'}
+[10.767709] (-) TimerEvent: {}
+[10.775578] (tactigon_msgs) StdoutLine: {'line': b'[ 81%] Built target tactigon_msgs\n'}
+[10.819081] (tactigon_msgs) StdoutLine: {'line': b'[ 82%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.867972] (-) TimerEvent: {}
+[10.968527] (-) TimerEvent: {}
+[11.068841] (-) TimerEvent: {}
+[11.169118] (-) TimerEvent: {}
+[11.269369] (-) TimerEvent: {}
+[11.369615] (-) TimerEvent: {}
+[11.470056] (-) TimerEvent: {}
+[11.570341] (-) TimerEvent: {}
+[11.672303] (-) TimerEvent: {}
+[11.694834] (tactigon_msgs) StdoutLine: {'line': b'[ 82%] Built target tactigon_msgs__py\n'}
+[11.733793] (tactigon_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/tactigon_msgs__rosidl_generator_py.dir/rosidl_generator_py/tactigon_msgs/msg/_t_skin_state_s.c.o\x1b[0m\n'}
+[11.737284] (tactigon_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/tactigon_msgs__rosidl_generator_py.dir/rosidl_generator_py/tactigon_msgs/msg/_touch_s.c.o\x1b[0m\n'}
+[11.739681] (tactigon_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/tactigon_msgs__rosidl_generator_py.dir/rosidl_generator_py/tactigon_msgs/msg/_angle_s.c.o\x1b[0m\n'}
+[11.741542] (tactigon_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/tactigon_msgs__rosidl_generator_py.dir/rosidl_generator_py/tactigon_msgs/msg/_gesture_s.c.o\x1b[0m\n'}
+[11.773057] (-) TimerEvent: {}
+[11.874463] (-) TimerEvent: {}
+[11.976112] (-) TimerEvent: {}
+[12.040069] (tactigon_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library libtactigon_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[12.076358] (-) TimerEvent: {}
+[12.114467] (tactigon_msgs) StdoutLine: {'line': b'[ 90%] Built target tactigon_msgs__rosidl_generator_py\n'}
+[12.156215] (tactigon_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/tactigon_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/tactigon_msgs/_tactigon_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[12.158943] (tactigon_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/tactigon_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/tactigon_msgs/_tactigon_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[12.159277] (tactigon_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/tactigon_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/tactigon_msgs/_tactigon_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[12.176462] (-) TimerEvent: {}
+[12.276780] (-) TimerEvent: {}
+[12.374389] (tactigon_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/tactigon_msgs/tactigon_msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[12.376884] (-) TimerEvent: {}
+[12.429504] (tactigon_msgs) StdoutLine: {'line': b'[ 96%] Built target tactigon_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[12.430354] (tactigon_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/tactigon_msgs/tactigon_msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[12.431020] (tactigon_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/tactigon_msgs/tactigon_msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[12.477056] (-) TimerEvent: {}
+[12.479666] (tactigon_msgs) StdoutLine: {'line': b'[100%] Built target tactigon_msgs_s__rosidl_typesupport_introspection_c\n'}
+[12.479941] (tactigon_msgs) StdoutLine: {'line': b'[100%] Built target tactigon_msgs_s__rosidl_typesupport_c\n'}
+[12.499496] (tactigon_msgs) CommandEnded: {'returncode': 0}
+[12.501341] (tactigon_msgs) JobProgress: {'identifier': 'tactigon_msgs', 'progress': 'install'}
+[12.517106] (tactigon_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/banjov2/ros2_ws/build/tactigon_msgs'], 'cwd': '/home/banjov2/ros2_ws/build/tactigon_msgs', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'banjov2', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/banjov2/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/snap/code/182/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/banjov2', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.97.0', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/182/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/banjov2/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/182/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/182/usr/share/code/code', 'MANAGERPID': '2531', 'SYSTEMD_EXEC_PID': '3071', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '248962', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'banjov2', 'JOURNAL_STREAM': '8:16307', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'banjov2', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/banjov2-Razer-Blade-Stealth-13-Late-2019:@/tmp/.ICE-unix/3046,unix/banjov2-Razer-Blade-Stealth-13-Late-2019:/tmp/.ICE-unix/3046', 'GTK_EXE_PREFIX': '/snap/code/182/usr', 'INVOCATION_ID': '2954677fc97b43edbd1482ea7fbbb363', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LOCPATH': '/snap/code/182/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/banjov2/snap/code/182/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-1a9be50bdb.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/banjov2/snap/code/182/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/banjov2/ros2_ws/build/tactigon_msgs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/banjov2/snap/code/182/.local/share:/home/banjov2/snap/code/182:/snap/code/182/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[12.532808] (tactigon_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.533480] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/ament_index/resource_index/rosidl_interfaces/tactigon_msgs\n'}
+[12.533670] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/msg/Touch.json\n'}
+[12.534996] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/msg/Angle.json\n'}
+[12.535177] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/msg/Gesture.json\n'}
+[12.535405] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/msg/TSkinState.json\n'}
+[12.535576] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs\n'}
+[12.535737] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg\n'}
+[12.535899] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/touch.h\n'}
+[12.536064] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail\n'}
+[12.536232] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/touch__functions.c\n'}
+[12.536464] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/touch__type_support.c\n'}
+[12.536626] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/angle__type_support.h\n'}
+[12.536808] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/gesture__functions.h\n'}
+[12.536997] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/touch__description.c\n'}
+[12.537176] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/t_skin_state__functions.c\n'}
+[12.537377] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/t_skin_state__type_support.c\n'}
+[12.537569] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/gesture__struct.h\n'}
+[12.537757] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/t_skin_state__description.c\n'}
+[12.537941] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/t_skin_state__functions.h\n'}
+[12.538160] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/t_skin_state__type_support.h\n'}
+[12.538360] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/gesture__type_support.h\n'}
+[12.538531] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/angle__struct.h\n'}
+[12.538683] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/angle__functions.h\n'}
+[12.538848] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/gesture__type_support.c\n'}
+[12.539019] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/angle__type_support.c\n'}
+[12.539168] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/t_skin_state__struct.h\n'}
+[12.539393] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/gesture__description.c\n'}
+[12.539573] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/gesture__functions.c\n'}
+[12.539731] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/touch__type_support.h\n'}
+[12.539844] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/angle__description.c\n'}
+[12.540026] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/touch__struct.h\n'}
+[12.540190] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/touch__functions.h\n'}
+[12.540341] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/angle__functions.c\n'}
+[12.540481] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.540568] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/t_skin_state.h\n'}
+[12.540678] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/angle.h\n'}
+[12.540793] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/gesture.h\n'}
+[12.540986] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/environment/library_path.sh\n'}
+[12.541256] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/environment/library_path.dsv\n'}
+[12.541636] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/libtactigon_msgs__rosidl_generator_c.so\n'}
+[12.542349] (tactigon_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/banjov2/ros2_ws/install/tactigon_msgs/lib/libtactigon_msgs__rosidl_generator_c.so" to ""\n'}
+[12.542580] (tactigon_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs\n'}
+[12.542748] (tactigon_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg\n'}
+[12.542931] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.543088] (tactigon_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail\n'}
+[12.543278] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/touch__rosidl_typesupport_fastrtps_c.h\n'}
+[12.543423] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/angle__rosidl_typesupport_fastrtps_c.h\n'}
+[12.543559] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/gesture__rosidl_typesupport_fastrtps_c.h\n'}
+[12.543728] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/t_skin_state__rosidl_typesupport_fastrtps_c.h\n'}
+[12.543903] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/libtactigon_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[12.544330] (tactigon_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/banjov2/ros2_ws/install/tactigon_msgs/lib/libtactigon_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[12.544529] (tactigon_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs\n'}
+[12.544790] (tactigon_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg\n'}
+[12.544985] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.545231] (tactigon_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail\n'}
+[12.545388] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/touch__type_support.c\n'}
+[12.545506] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/t_skin_state__type_support.c\n'}
+[12.545622] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/gesture__rosidl_typesupport_introspection_c.h\n'}
+[12.545739] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/gesture__type_support.c\n'}
+[12.545853] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/touch__rosidl_typesupport_introspection_c.h\n'}
+[12.545987] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/angle__type_support.c\n'}
+[12.546111] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/t_skin_state__rosidl_typesupport_introspection_c.h\n'}
+[12.546368] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/angle__rosidl_typesupport_introspection_c.h\n'}
+[12.546513] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/libtactigon_msgs__rosidl_typesupport_introspection_c.so\n'}
+[12.547144] (tactigon_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/banjov2/ros2_ws/install/tactigon_msgs/lib/libtactigon_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[12.547266] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/libtactigon_msgs__rosidl_typesupport_c.so\n'}
+[12.547740] (tactigon_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/banjov2/ros2_ws/install/tactigon_msgs/lib/libtactigon_msgs__rosidl_typesupport_c.so" to ""\n'}
+[12.547848] (tactigon_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs\n'}
+[12.547950] (tactigon_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg\n'}
+[12.548052] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/angle.hpp\n'}
+[12.548161] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[12.548374] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/touch.hpp\n'}
+[12.548616] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/t_skin_state.hpp\n'}
+[12.548770] (tactigon_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail\n'}
+[12.548882] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/touch__type_support.hpp\n'}
+[12.549012] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/touch__traits.hpp\n'}
+[12.549238] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/angle__type_support.hpp\n'}
+[12.549462] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/gesture__struct.hpp\n'}
+[12.549668] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/gesture__traits.hpp\n'}
+[12.549847] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/gesture__type_support.hpp\n'}
+[12.550006] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/t_skin_state__struct.hpp\n'}
+[12.550143] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/t_skin_state__traits.hpp\n'}
+[12.550266] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/angle__traits.hpp\n'}
+[12.550401] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/touch__struct.hpp\n'}
+[12.550544] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/t_skin_state__type_support.hpp\n'}
+[12.550675] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/gesture__builder.hpp\n'}
+[12.550806] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/angle__builder.hpp\n'}
+[12.550934] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/touch__builder.hpp\n'}
+[12.551065] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/angle__struct.hpp\n'}
+[12.551215] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/t_skin_state__builder.hpp\n'}
+[12.551362] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/gesture.hpp\n'}
+[12.551522] (tactigon_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs\n'}
+[12.551626] (tactigon_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg\n'}
+[12.551701] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.551801] (tactigon_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail\n'}
+[12.551875] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/t_skin_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.551967] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/touch__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.552086] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/gesture__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.552218] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/dds_fastrtps\n'}
+[12.552350] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/angle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.552556] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/libtactigon_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[12.553277] (tactigon_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/banjov2/ros2_ws/install/tactigon_msgs/lib/libtactigon_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[12.553423] (tactigon_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs\n'}
+[12.553537] (tactigon_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg\n'}
+[12.553630] (tactigon_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail\n'}
+[12.553743] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/touch__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.553857] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/gesture__type_support.cpp\n'}
+[12.554093] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/gesture__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.554356] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/angle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.554544] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/angle__type_support.cpp\n'}
+[12.554674] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/t_skin_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.554821] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/touch__type_support.cpp\n'}
+[12.554951] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/t_skin_state__type_support.cpp\n'}
+[12.555244] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/libtactigon_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[12.556019] (tactigon_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/banjov2/ros2_ws/install/tactigon_msgs/lib/libtactigon_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[12.556279] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/libtactigon_msgs__rosidl_typesupport_cpp.so\n'}
+[12.556937] (tactigon_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/banjov2/ros2_ws/install/tactigon_msgs/lib/libtactigon_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[12.557265] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/environment/pythonpath.sh\n'}
+[12.557587] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/environment/pythonpath.dsv\n'}
+[12.557821] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs-0.0.0-py3.12.egg-info\n'}
+[12.558060] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[12.558287] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[12.558477] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[12.558662] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[12.558909] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs\n'}
+[12.559051] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/tactigon_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[12.559295] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/tactigon_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[12.559534] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/__init__.py\n'}
+[12.559691] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/msg\n'}
+[12.559816] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/msg/_t_skin_state_s.c\n'}
+[12.560018] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/msg/_gesture_s.c\n'}
+[12.560251] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/msg/__init__.py\n'}
+[12.560443] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/msg/_gesture.py\n'}
+[12.560629] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/msg/_angle.py\n'}
+[12.560805] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/msg/_angle_s.c\n'}
+[12.560918] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/msg/_touch.py\n'}
+[12.561030] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/msg/_touch_s.c\n'}
+[12.561137] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/msg/_t_skin_state.py\n'}
+[12.561263] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/_tactigon_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[12.561380] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/tactigon_msgs_s__rosidl_typesupport_c.so\n'}
+[12.561501] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/_tactigon_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[12.561616] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/_tactigon_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[12.577182] (-) TimerEvent: {}
+[12.629489] (tactigon_msgs) StdoutLine: {'line': b"Listing '/home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs'...\n"}
+[12.629800] (tactigon_msgs) StdoutLine: {'line': b"Compiling '/home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/__init__.py'...\n"}
+[12.629967] (tactigon_msgs) StdoutLine: {'line': b"Listing '/home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/msg'...\n"}
+[12.630140] (tactigon_msgs) StdoutLine: {'line': b"Compiling '/home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/msg/__init__.py'...\n"}
+[12.630315] (tactigon_msgs) StdoutLine: {'line': b"Compiling '/home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/msg/_angle.py'...\n"}
+[12.630447] (tactigon_msgs) StdoutLine: {'line': b"Compiling '/home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/msg/_gesture.py'...\n"}
+[12.630621] (tactigon_msgs) StdoutLine: {'line': b"Compiling '/home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/msg/_t_skin_state.py'...\n"}
+[12.630789] (tactigon_msgs) StdoutLine: {'line': b"Compiling '/home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/msg/_touch.py'...\n"}
+[12.638454] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/tactigon_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[12.638895] (tactigon_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/tactigon_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[12.639130] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/tactigon_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[12.639741] (tactigon_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/tactigon_msgs_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[12.639890] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/tactigon_msgs_s__rosidl_typesupport_c.so\n'}
+[12.640377] (tactigon_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/tactigon_msgs_s__rosidl_typesupport_c.so" to ""\n'}
+[12.640551] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/libtactigon_msgs__rosidl_generator_py.so\n'}
+[12.641084] (tactigon_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/banjov2/ros2_ws/install/tactigon_msgs/lib/libtactigon_msgs__rosidl_generator_py.so" to ""\n'}
+[12.641256] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/msg/Touch.idl\n'}
+[12.641376] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/msg/Angle.idl\n'}
+[12.641576] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/msg/Gesture.idl\n'}
+[12.641770] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/msg/TSkinState.idl\n'}
+[12.641961] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/msg/Touch.msg\n'}
+[12.642121] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/msg/Angle.msg\n'}
+[12.642379] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/msg/Gesture.msg\n'}
+[12.642549] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/msg/TSkinState.msg\n'}
+[12.642884] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/ament_index/resource_index/package_run_dependencies/tactigon_msgs\n'}
+[12.643186] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/ament_index/resource_index/parent_prefix_path/tactigon_msgs\n'}
+[12.643522] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/environment/ament_prefix_path.sh\n'}
+[12.643703] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/environment/ament_prefix_path.dsv\n'}
+[12.643831] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/environment/path.sh\n'}
+[12.644063] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/environment/path.dsv\n'}
+[12.644328] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/local_setup.bash\n'}
+[12.644499] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/local_setup.sh\n'}
+[12.644747] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/local_setup.zsh\n'}
+[12.644908] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/local_setup.dsv\n'}
+[12.645111] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/package.dsv\n'}
+[12.645512] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/ament_index/resource_index/packages/tactigon_msgs\n'}
+[12.645798] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/export_tactigon_msgs__rosidl_generator_cExport.cmake\n'}
+[12.646041] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/export_tactigon_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.646384] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/export_tactigon_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[12.646650] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/export_tactigon_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[12.646956] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/tactigon_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.647223] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/tactigon_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.647465] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/tactigon_msgs__rosidl_typesupport_cExport.cmake\n'}
+[12.647642] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/tactigon_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.647910] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/export_tactigon_msgs__rosidl_generator_cppExport.cmake\n'}
+[12.648170] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/export_tactigon_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[12.648498] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/export_tactigon_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[12.648744] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/tactigon_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.649016] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/tactigon_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.649295] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/tactigon_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[12.649556] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/tactigon_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.649839] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/export_tactigon_msgs__rosidl_generator_pyExport.cmake\n'}
+[12.650026] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/export_tactigon_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[12.650366] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[12.650620] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.650829] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.651040] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.651228] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.651489] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.651726] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.652009] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/tactigon_msgsConfig.cmake\n'}
+[12.652354] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/tactigon_msgsConfig-version.cmake\n'}
+[12.652578] (tactigon_msgs) StdoutLine: {'line': b'-- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/package.xml\n'}
+[12.655927] (tactigon_msgs) CommandEnded: {'returncode': 0}
+[12.677255] (-) TimerEvent: {}
+[12.683861] (tactigon_msgs) JobEnded: {'identifier': 'tactigon_msgs', 'rc': 0}
+[12.684645] (tactigon_ros) JobStarted: {'identifier': 'tactigon_ros'}
+[12.777373] (-) TimerEvent: {}
+[12.877775] (-) TimerEvent: {}
+[12.978331] (-) TimerEvent: {}
+[13.078542] (-) TimerEvent: {}
+[13.178978] (-) TimerEvent: {}
+[13.279206] (-) TimerEvent: {}
+[13.379656] (-) TimerEvent: {}
+[13.480110] (-) TimerEvent: {}
+[13.580632] (-) TimerEvent: {}
+[13.681173] (-) TimerEvent: {}
+[13.781546] (-) TimerEvent: {}
+[13.881926] (-) TimerEvent: {}
+[13.958647] (tactigon_ros) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/tactigon_ros', 'build', '--build-base', '/home/banjov2/ros2_ws/build/tactigon_ros/build', 'install', '--record', '/home/banjov2/ros2_ws/build/tactigon_ros/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/banjov2/ros2_ws/src/tactigon_ros', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'banjov2', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/banjov2/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/snap/code/182/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/banjov2/ros2_ws/install/tactigon_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/banjov2', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.97.0', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/182/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/banjov2/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/182/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/182/usr/share/code/code', 'MANAGERPID': '2531', 'SYSTEMD_EXEC_PID': '3071', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '248962', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'banjov2', 'JOURNAL_STREAM': '8:16307', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'banjov2', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/banjov2-Razer-Blade-Stealth-13-Late-2019:@/tmp/.ICE-unix/3046,unix/banjov2-Razer-Blade-Stealth-13-Late-2019:/tmp/.ICE-unix/3046', 'GTK_EXE_PREFIX': '/snap/code/182/usr', 'INVOCATION_ID': '2954677fc97b43edbd1482ea7fbbb363', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LOCPATH': '/snap/code/182/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/banjov2/snap/code/182/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-1a9be50bdb.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/banjov2/snap/code/182/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/banjov2/ros2_ws/install/tactigon_msgs:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/banjov2/ros2_ws/build/tactigon_ros', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/banjov2/snap/code/182/.local/share:/home/banjov2/snap/code/182:/snap/code/182/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/banjov2/ros2_ws/build/tactigon_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/banjov2/ros2_ws/install/tactigon_ros/lib/python3.12/site-packages:/home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/banjov2/ros2_ws/install/tactigon_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[13.982068] (-) TimerEvent: {}
+[14.082510] (-) TimerEvent: {}
+[14.182783] (-) TimerEvent: {}
+[14.283059] (-) TimerEvent: {}
+[14.352913] (tactigon_ros) StdoutLine: {'line': b'running egg_info\n'}
+[14.353225] (tactigon_ros) StdoutLine: {'line': b'creating ../../build/tactigon_ros/tactigon_ros.egg-info\n'}
+[14.378543] (tactigon_ros) StdoutLine: {'line': b'writing ../../build/tactigon_ros/tactigon_ros.egg-info/PKG-INFO\n'}
+[14.378932] (tactigon_ros) StdoutLine: {'line': b'writing dependency_links to ../../build/tactigon_ros/tactigon_ros.egg-info/dependency_links.txt\n'}
+[14.379014] (tactigon_ros) StdoutLine: {'line': b'writing entry points to ../../build/tactigon_ros/tactigon_ros.egg-info/entry_points.txt\n'}
+[14.379087] (tactigon_ros) StdoutLine: {'line': b'writing requirements to ../../build/tactigon_ros/tactigon_ros.egg-info/requires.txt\n'}
+[14.379158] (tactigon_ros) StdoutLine: {'line': b'writing top-level names to ../../build/tactigon_ros/tactigon_ros.egg-info/top_level.txt\n'}
+[14.379267] (tactigon_ros) StdoutLine: {'line': b"writing manifest file '../../build/tactigon_ros/tactigon_ros.egg-info/SOURCES.txt'\n"}
+[14.383167] (-) TimerEvent: {}
+[14.451496] (tactigon_ros) StdoutLine: {'line': b"reading manifest file '../../build/tactigon_ros/tactigon_ros.egg-info/SOURCES.txt'\n"}
+[14.452577] (tactigon_ros) StdoutLine: {'line': b"writing manifest file '../../build/tactigon_ros/tactigon_ros.egg-info/SOURCES.txt'\n"}
+[14.452853] (tactigon_ros) StdoutLine: {'line': b'running build\n'}
+[14.453011] (tactigon_ros) StdoutLine: {'line': b'running build_py\n'}
+[14.453184] (tactigon_ros) StdoutLine: {'line': b'creating /home/banjov2/ros2_ws/build/tactigon_ros/build\n'}
+[14.453347] (tactigon_ros) StdoutLine: {'line': b'creating /home/banjov2/ros2_ws/build/tactigon_ros/build/lib\n'}
+[14.453435] (tactigon_ros) StdoutLine: {'line': b'creating /home/banjov2/ros2_ws/build/tactigon_ros/build/lib/tactigon_ros\n'}
+[14.453557] (tactigon_ros) StdoutLine: {'line': b'copying tactigon_ros/tactigon_turtlesim_controller.py -> /home/banjov2/ros2_ws/build/tactigon_ros/build/lib/tactigon_ros\n'}
+[14.453762] (tactigon_ros) StdoutLine: {'line': b'copying tactigon_ros/__init__.py -> /home/banjov2/ros2_ws/build/tactigon_ros/build/lib/tactigon_ros\n'}
+[14.453855] (tactigon_ros) StdoutLine: {'line': b'copying tactigon_ros/tactigon_data.py -> /home/banjov2/ros2_ws/build/tactigon_ros/build/lib/tactigon_ros\n'}
+[14.453973] (tactigon_ros) StdoutLine: {'line': b'copying tactigon_ros/tactigon_logger.py -> /home/banjov2/ros2_ws/build/tactigon_ros/build/lib/tactigon_ros\n'}
+[14.454628] (tactigon_ros) StdoutLine: {'line': b'running install\n'}
+[14.462794] (tactigon_ros) StdoutLine: {'line': b'running install_lib\n'}
+[14.481964] (tactigon_ros) StdoutLine: {'line': b'creating /home/banjov2/ros2_ws/install/tactigon_ros/lib/python3.12/site-packages/tactigon_ros\n'}
+[14.482103] (tactigon_ros) StdoutLine: {'line': b'copying /home/banjov2/ros2_ws/build/tactigon_ros/build/lib/tactigon_ros/tactigon_turtlesim_controller.py -> /home/banjov2/ros2_ws/install/tactigon_ros/lib/python3.12/site-packages/tactigon_ros\n'}
+[14.482205] (tactigon_ros) StdoutLine: {'line': b'copying /home/banjov2/ros2_ws/build/tactigon_ros/build/lib/tactigon_ros/__init__.py -> /home/banjov2/ros2_ws/install/tactigon_ros/lib/python3.12/site-packages/tactigon_ros\n'}
+[14.482435] (tactigon_ros) StdoutLine: {'line': b'copying /home/banjov2/ros2_ws/build/tactigon_ros/build/lib/tactigon_ros/tactigon_data.py -> /home/banjov2/ros2_ws/install/tactigon_ros/lib/python3.12/site-packages/tactigon_ros\n'}
+[14.482514] (tactigon_ros) StdoutLine: {'line': b'copying /home/banjov2/ros2_ws/build/tactigon_ros/build/lib/tactigon_ros/tactigon_logger.py -> /home/banjov2/ros2_ws/install/tactigon_ros/lib/python3.12/site-packages/tactigon_ros\n'}
+[14.482615] (tactigon_ros) StdoutLine: {'line': b'byte-compiling /home/banjov2/ros2_ws/install/tactigon_ros/lib/python3.12/site-packages/tactigon_ros/tactigon_turtlesim_controller.py to tactigon_turtlesim_controller.cpython-312.pyc\n'}
+[14.483236] (-) TimerEvent: {}
+[14.483817] (tactigon_ros) StdoutLine: {'line': b'byte-compiling /home/banjov2/ros2_ws/install/tactigon_ros/lib/python3.12/site-packages/tactigon_ros/__init__.py to __init__.cpython-312.pyc\n'}
+[14.483986] (tactigon_ros) StdoutLine: {'line': b'byte-compiling /home/banjov2/ros2_ws/install/tactigon_ros/lib/python3.12/site-packages/tactigon_ros/tactigon_data.py to tactigon_data.cpython-312.pyc\n'}
+[14.485165] (tactigon_ros) StdoutLine: {'line': b'byte-compiling /home/banjov2/ros2_ws/install/tactigon_ros/lib/python3.12/site-packages/tactigon_ros/tactigon_logger.py to tactigon_logger.cpython-312.pyc\n'}
+[14.486158] (tactigon_ros) StdoutLine: {'line': b'running install_data\n'}
+[14.486311] (tactigon_ros) StdoutLine: {'line': b'creating /home/banjov2/ros2_ws/install/tactigon_ros/share/ament_index\n'}
+[14.486388] (tactigon_ros) StdoutLine: {'line': b'creating /home/banjov2/ros2_ws/install/tactigon_ros/share/ament_index/resource_index\n'}
+[14.486457] (tactigon_ros) StdoutLine: {'line': b'creating /home/banjov2/ros2_ws/install/tactigon_ros/share/ament_index/resource_index/packages\n'}
+[14.486528] (tactigon_ros) StdoutLine: {'line': b'copying resource/tactigon_ros -> /home/banjov2/ros2_ws/install/tactigon_ros/share/ament_index/resource_index/packages\n'}
+[14.486642] (tactigon_ros) StdoutLine: {'line': b'copying package.xml -> /home/banjov2/ros2_ws/install/tactigon_ros/share/tactigon_ros\n'}
+[14.486739] (tactigon_ros) StdoutLine: {'line': b'creating /home/banjov2/ros2_ws/install/tactigon_ros/share/tactigon_ros/msg\n'}
+[14.486806] (tactigon_ros) StdoutLine: {'line': b'creating /home/banjov2/ros2_ws/install/tactigon_ros/share/tactigon_ros/launch\n'}
+[14.486871] (tactigon_ros) StdoutLine: {'line': b'copying launch/launch_tactigon_ros.launch.py -> /home/banjov2/ros2_ws/install/tactigon_ros/share/tactigon_ros/launch\n'}
+[14.486934] (tactigon_ros) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.518693] (tactigon_ros) StdoutLine: {'line': b'Copying ../../build/tactigon_ros/tactigon_ros.egg-info to /home/banjov2/ros2_ws/install/tactigon_ros/lib/python3.12/site-packages/tactigon_ros-0.0.0-py3.12.egg-info\n'}
+[14.520747] (tactigon_ros) StdoutLine: {'line': b'running install_scripts\n'}
+[14.583338] (-) TimerEvent: {}
+[14.683618] (-) TimerEvent: {}
+[14.733946] (tactigon_ros) StdoutLine: {'line': b'Installing tactigon_data script to /home/banjov2/ros2_ws/install/tactigon_ros/lib/tactigon_ros\n'}
+[14.735243] (tactigon_ros) StdoutLine: {'line': b'Installing tactigon_logger script to /home/banjov2/ros2_ws/install/tactigon_ros/lib/tactigon_ros\n'}
+[14.735454] (tactigon_ros) StdoutLine: {'line': b'Installing tactigon_turtlesim_controller script to /home/banjov2/ros2_ws/install/tactigon_ros/lib/tactigon_ros\n'}
+[14.735632] (tactigon_ros) StdoutLine: {'line': b"writing list of installed files to '/home/banjov2/ros2_ws/build/tactigon_ros/install.log'\n"}
+[14.771441] (tactigon_ros) CommandEnded: {'returncode': 0}
+[14.776245] (tactigon_ros) JobEnded: {'identifier': 'tactigon_ros', 'rc': 0}
+[14.776864] (-) EventReactorShutdown: {}

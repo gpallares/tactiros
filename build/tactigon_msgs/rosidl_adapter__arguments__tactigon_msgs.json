@@ -1,0 +1,9 @@
+{
+  "package_name": "tactigon_msgs",
+  "non_idl_tuples": [
+    "/home/banjov2/ros2_ws/src/tactigon_msgs:msg/Touch.msg",
+    "/home/banjov2/ros2_ws/src/tactigon_msgs:msg/Angle.msg",
+    "/home/banjov2/ros2_ws/src/tactigon_msgs:msg/Gesture.msg",
+    "/home/banjov2/ros2_ws/src/tactigon_msgs:msg/TSkinState.msg"
+  ]
+}

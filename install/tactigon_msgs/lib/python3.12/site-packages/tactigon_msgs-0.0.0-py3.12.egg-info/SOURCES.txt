@@ -1,0 +1,11 @@
+setup.py
+tactigon_msgs/__init__.py
+tactigon_msgs.egg-info/PKG-INFO
+tactigon_msgs.egg-info/SOURCES.txt
+tactigon_msgs.egg-info/dependency_links.txt
+tactigon_msgs.egg-info/top_level.txt
+tactigon_msgs/msg/__init__.py
+tactigon_msgs/msg/_angle.py
+tactigon_msgs/msg/_gesture.py
+tactigon_msgs/msg/_t_skin_state.py
+tactigon_msgs/msg/_touch.py

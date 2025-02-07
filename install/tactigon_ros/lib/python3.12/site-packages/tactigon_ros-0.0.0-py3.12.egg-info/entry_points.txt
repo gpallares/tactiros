@@ -1,0 +1,4 @@
+[console_scripts]
+tactigon_data = tactigon_ros.tactigon_data:main
+tactigon_logger = tactigon_ros.tactigon_logger:main
+tactigon_turtlesim_controller = tactigon_ros.tactigon_turtlesim_controller:main

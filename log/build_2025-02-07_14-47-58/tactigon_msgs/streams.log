@@ -1,0 +1,216 @@
+[0.012s] Invoking command in '/home/banjov2/ros2_ws/build/tactigon_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/banjov2/ros2_ws/install/tactigon_ros:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/banjov2/ros2_ws/build/tactigon_msgs -- -j8 -l8
+[0.067s] [  1%] Built target tactigon_msgs__rosidl_generator_type_description
+[0.077s] [  1%] Built target ament_cmake_python_copy_tactigon_msgs
+[0.089s] [  3%] Built target tactigon_msgs__cpp
+[0.095s] [ 25%] Built target tactigon_msgs__rosidl_generator_c
+[0.134s] [ 34%] Built target tactigon_msgs__rosidl_typesupport_introspection_c
+[0.135s] [ 68%] Built target tactigon_msgs__rosidl_typesupport_c
+[0.136s] [ 71%] Built target tactigon_msgs__rosidl_typesupport_introspection_cpp
+[0.137s] [ 71%] Built target tactigon_msgs__rosidl_typesupport_cpp
+[0.137s] [ 68%] Built target tactigon_msgs__rosidl_typesupport_fastrtps_c
+[0.146s] [ 81%] Built target tactigon_msgs__rosidl_typesupport_fastrtps_cpp
+[0.168s] [ 81%] Built target tactigon_msgs
+[0.189s] [ 82%] Built target tactigon_msgs__py
+[0.217s] [ 90%] Built target tactigon_msgs__rosidl_generator_py
+[0.242s] [100%] Built target tactigon_msgs_s__rosidl_typesupport_fastrtps_c
+[0.242s] [100%] Built target tactigon_msgs_s__rosidl_typesupport_c
+[0.242s] [100%] Built target tactigon_msgs_s__rosidl_typesupport_introspection_c
+[0.359s] running egg_info
+[0.382s] writing tactigon_msgs.egg-info/PKG-INFO
+[0.382s] writing dependency_links to tactigon_msgs.egg-info/dependency_links.txt
+[0.382s] writing top-level names to tactigon_msgs.egg-info/top_level.txt
+[0.460s] reading manifest file 'tactigon_msgs.egg-info/SOURCES.txt'
+[0.461s] writing manifest file 'tactigon_msgs.egg-info/SOURCES.txt'
+[0.487s] [100%] Built target ament_cmake_python_build_tactigon_msgs_egg
+[0.500s] Invoked command in '/home/banjov2/ros2_ws/build/tactigon_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/banjov2/ros2_ws/install/tactigon_ros:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/banjov2/ros2_ws/build/tactigon_msgs -- -j8 -l8
+[0.511s] Invoking command in '/home/banjov2/ros2_ws/build/tactigon_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/banjov2/ros2_ws/install/tactigon_ros:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/banjov2/ros2_ws/build/tactigon_msgs
+[0.519s] -- Install configuration: ""
+[0.519s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/ament_index/resource_index/rosidl_interfaces/tactigon_msgs
+[0.519s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/msg/Touch.json
+[0.519s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/msg/Angle.json
+[0.519s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/msg/Gesture.json
+[0.520s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/msg/TSkinState.json
+[0.520s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs
+[0.520s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg
+[0.520s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/touch.h
+[0.520s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail
+[0.520s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/touch__functions.c
+[0.520s] -- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/touch__type_support.c
+[0.521s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/angle__type_support.h
+[0.521s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/gesture__functions.h
+[0.521s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/touch__description.c
+[0.521s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/t_skin_state__functions.c
+[0.521s] -- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/t_skin_state__type_support.c
+[0.521s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/gesture__struct.h
+[0.521s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/t_skin_state__description.c
+[0.522s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/t_skin_state__functions.h
+[0.522s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/t_skin_state__type_support.h
+[0.522s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/gesture__type_support.h
+[0.522s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/angle__struct.h
+[0.522s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/angle__functions.h
+[0.522s] -- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/gesture__type_support.c
+[0.522s] -- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/angle__type_support.c
+[0.523s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/t_skin_state__struct.h
+[0.523s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/gesture__description.c
+[0.523s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/gesture__functions.c
+[0.523s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/touch__type_support.h
+[0.523s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/angle__description.c
+[0.523s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/touch__struct.h
+[0.523s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/touch__functions.h
+[0.524s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/angle__functions.c
+[0.524s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.524s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/t_skin_state.h
+[0.525s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/angle.h
+[0.525s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/gesture.h
+[0.525s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/environment/library_path.sh
+[0.526s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/environment/library_path.dsv
+[0.526s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/libtactigon_msgs__rosidl_generator_c.so
+[0.526s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs
+[0.526s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg
+[0.526s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.527s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail
+[0.527s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/touch__rosidl_typesupport_fastrtps_c.h
+[0.527s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/angle__rosidl_typesupport_fastrtps_c.h
+[0.527s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/gesture__rosidl_typesupport_fastrtps_c.h
+[0.527s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/t_skin_state__rosidl_typesupport_fastrtps_c.h
+[0.528s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/libtactigon_msgs__rosidl_typesupport_fastrtps_c.so
+[0.528s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs
+[0.528s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg
+[0.528s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.528s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail
+[0.528s] -- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/touch__type_support.c
+[0.528s] -- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/t_skin_state__type_support.c
+[0.529s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/gesture__rosidl_typesupport_introspection_c.h
+[0.529s] -- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/gesture__type_support.c
+[0.529s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/touch__rosidl_typesupport_introspection_c.h
+[0.529s] -- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/angle__type_support.c
+[0.529s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/t_skin_state__rosidl_typesupport_introspection_c.h
+[0.529s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/angle__rosidl_typesupport_introspection_c.h
+[0.529s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/libtactigon_msgs__rosidl_typesupport_introspection_c.so
+[0.529s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/libtactigon_msgs__rosidl_typesupport_c.so
+[0.530s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs
+[0.530s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg
+[0.530s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/angle.hpp
+[0.530s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.530s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/touch.hpp
+[0.530s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/t_skin_state.hpp
+[0.530s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail
+[0.530s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/touch__type_support.hpp
+[0.531s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/touch__traits.hpp
+[0.531s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/angle__type_support.hpp
+[0.531s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/gesture__struct.hpp
+[0.531s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/gesture__traits.hpp
+[0.531s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/gesture__type_support.hpp
+[0.531s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/t_skin_state__struct.hpp
+[0.531s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/t_skin_state__traits.hpp
+[0.531s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/angle__traits.hpp
+[0.532s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/touch__struct.hpp
+[0.532s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/t_skin_state__type_support.hpp
+[0.532s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/gesture__builder.hpp
+[0.532s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/angle__builder.hpp
+[0.532s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/touch__builder.hpp
+[0.532s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/angle__struct.hpp
+[0.532s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/t_skin_state__builder.hpp
+[0.532s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/gesture.hpp
+[0.532s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs
+[0.533s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg
+[0.533s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.533s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail
+[0.533s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/t_skin_state__rosidl_typesupport_fastrtps_cpp.hpp
+[0.533s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/touch__rosidl_typesupport_fastrtps_cpp.hpp
+[0.533s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/gesture__rosidl_typesupport_fastrtps_cpp.hpp
+[0.533s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/dds_fastrtps
+[0.533s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/angle__rosidl_typesupport_fastrtps_cpp.hpp
+[0.533s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/libtactigon_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.534s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs
+[0.534s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg
+[0.534s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail
+[0.534s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/touch__rosidl_typesupport_introspection_cpp.hpp
+[0.534s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/gesture__type_support.cpp
+[0.534s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/gesture__rosidl_typesupport_introspection_cpp.hpp
+[0.534s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/angle__rosidl_typesupport_introspection_cpp.hpp
+[0.534s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/angle__type_support.cpp
+[0.534s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/t_skin_state__rosidl_typesupport_introspection_cpp.hpp
+[0.535s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/touch__type_support.cpp
+[0.535s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/include/tactigon_msgs/tactigon_msgs/msg/detail/t_skin_state__type_support.cpp
+[0.535s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/libtactigon_msgs__rosidl_typesupport_introspection_cpp.so
+[0.535s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/libtactigon_msgs__rosidl_typesupport_cpp.so
+[0.535s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/environment/pythonpath.sh
+[0.535s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/environment/pythonpath.dsv
+[0.535s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs-0.0.0-py3.12.egg-info
+[0.535s] -- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.536s] -- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.536s] -- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[0.536s] -- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[0.536s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs
+[0.536s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/tactigon_msgs_s__rosidl_typesupport_introspection_c.so
+[0.536s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/tactigon_msgs_s__rosidl_typesupport_fastrtps_c.so
+[0.536s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/__init__.py
+[0.536s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/msg
+[0.536s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/msg/_t_skin_state_s.c
+[0.537s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/msg/_gesture_s.c
+[0.537s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/msg/__init__.py
+[0.537s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/msg/_gesture.py
+[0.537s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/msg/_angle.py
+[0.537s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/msg/_angle_s.c
+[0.537s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/msg/_touch.py
+[0.537s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/msg/_touch_s.c
+[0.537s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/msg/_t_skin_state.py
+[0.537s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/_tactigon_msgs_s.ep.rosidl_typesupport_c.c
+[0.538s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/tactigon_msgs_s__rosidl_typesupport_c.so
+[0.538s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/_tactigon_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.538s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/_tactigon_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.564s] Listing '/home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs'...
+[0.564s] Listing '/home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/msg'...
+[0.570s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/tactigon_msgs_s__rosidl_typesupport_fastrtps_c.so
+[0.571s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/tactigon_msgs_s__rosidl_typesupport_introspection_c.so
+[0.571s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/python3.12/site-packages/tactigon_msgs/tactigon_msgs_s__rosidl_typesupport_c.so
+[0.571s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/lib/libtactigon_msgs__rosidl_generator_py.so
+[0.571s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/msg/Touch.idl
+[0.571s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/msg/Angle.idl
+[0.572s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/msg/Gesture.idl
+[0.572s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/msg/TSkinState.idl
+[0.572s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/msg/Touch.msg
+[0.572s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/msg/Angle.msg
+[0.572s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/msg/Gesture.msg
+[0.572s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/msg/TSkinState.msg
+[0.572s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/ament_index/resource_index/package_run_dependencies/tactigon_msgs
+[0.573s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/ament_index/resource_index/parent_prefix_path/tactigon_msgs
+[0.573s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/environment/ament_prefix_path.sh
+[0.573s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/environment/ament_prefix_path.dsv
+[0.573s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/environment/path.sh
+[0.573s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/environment/path.dsv
+[0.573s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/local_setup.bash
+[0.574s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/local_setup.sh
+[0.574s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/local_setup.zsh
+[0.574s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/local_setup.dsv
+[0.574s] -- Installing: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/package.dsv
+[0.574s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/ament_index/resource_index/packages/tactigon_msgs
+[0.574s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/export_tactigon_msgs__rosidl_generator_cExport.cmake
+[0.574s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/export_tactigon_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.575s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/export_tactigon_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.575s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/export_tactigon_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.575s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/tactigon_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.575s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/tactigon_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.575s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/tactigon_msgs__rosidl_typesupport_cExport.cmake
+[0.575s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/tactigon_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.576s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/export_tactigon_msgs__rosidl_generator_cppExport.cmake
+[0.576s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/export_tactigon_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.576s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/export_tactigon_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.576s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/tactigon_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.577s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/tactigon_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.577s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/tactigon_msgs__rosidl_typesupport_cppExport.cmake
+[0.577s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/tactigon_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.577s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/export_tactigon_msgs__rosidl_generator_pyExport.cmake
+[0.578s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/export_tactigon_msgs__rosidl_generator_pyExport-noconfig.cmake
+[0.578s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/rosidl_cmake-extras.cmake
+[0.578s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.578s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.578s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.578s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.579s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.579s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.579s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/tactigon_msgsConfig.cmake
+[0.579s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/cmake/tactigon_msgsConfig-version.cmake
+[0.579s] -- Up-to-date: /home/banjov2/ros2_ws/install/tactigon_msgs/share/tactigon_msgs/package.xml
+[0.579s] Invoked command in '/home/banjov2/ros2_ws/build/tactigon_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/banjov2/ros2_ws/install/tactigon_ros:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/banjov2/ros2_ws/build/tactigon_msgs

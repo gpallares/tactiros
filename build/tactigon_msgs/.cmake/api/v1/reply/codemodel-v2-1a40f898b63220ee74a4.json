@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9914179a7f81c0fdd9f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "tactigon_msgs__py",
+					"jsonFile" : "directory-tactigon_msgs__py-601fe3f65d1ee1497242.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/banjov2/ros2_ws/build/tactigon_msgs/tactigon_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "tactigon_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_tactigon_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_tactigon_msgs_egg-95618e7be59c9772a30a.json",
+					"name" : "ament_cmake_python_build_tactigon_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_tactigon_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_tactigon_msgs-7d7ddba15d7a92871524.json",
+					"name" : "ament_cmake_python_copy_tactigon_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tactigon_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tactigon_msgs-2a22257e46efdd66cf8c.json",
+					"name" : "tactigon_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tactigon_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tactigon_msgs__cpp-6c7ca3d0371465332595.json",
+					"name" : "tactigon_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tactigon_msgs__py::@be9d46a7c2ed6f685da6",
+					"jsonFile" : "target-tactigon_msgs__py-c2d934f1b2f75caa2d3f.json",
+					"name" : "tactigon_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tactigon_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tactigon_msgs__rosidl_generator_c-7d15005694b750c6c110.json",
+					"name" : "tactigon_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tactigon_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tactigon_msgs__rosidl_generator_py-49f3346d8dd7f288e15b.json",
+					"name" : "tactigon_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tactigon_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tactigon_msgs__rosidl_generator_type_description-421b6136de745428e33c.json",
+					"name" : "tactigon_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tactigon_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tactigon_msgs__rosidl_typesupport_c-e243152451e2b1f04dca.json",
+					"name" : "tactigon_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tactigon_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tactigon_msgs__rosidl_typesupport_cpp-6efdde68ebf25da80174.json",
+					"name" : "tactigon_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tactigon_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tactigon_msgs__rosidl_typesupport_fastrtps_c-55da83625af77500b760.json",
+					"name" : "tactigon_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tactigon_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tactigon_msgs__rosidl_typesupport_fastrtps_cpp-9193f6ca5614bfcb226b.json",
+					"name" : "tactigon_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tactigon_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tactigon_msgs__rosidl_typesupport_introspection_c-97e3594d9add0e072421.json",
+					"name" : "tactigon_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tactigon_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tactigon_msgs__rosidl_typesupport_introspection_cpp-0dcda029e7bd74baf4c0.json",
+					"name" : "tactigon_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tactigon_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tactigon_msgs_s__rosidl_typesupport_c-a28e41ff8ebe42ea5e69.json",
+					"name" : "tactigon_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tactigon_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tactigon_msgs_s__rosidl_typesupport_fastrtps_c-ae2f04371925ccb083c2.json",
+					"name" : "tactigon_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tactigon_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tactigon_msgs_s__rosidl_typesupport_introspection_c-5829bdc69b5a495d0388.json",
+					"name" : "tactigon_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tactigon_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tactigon_msgs_uninstall-5e0863d602c299b1a112.json",
+					"name" : "tactigon_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7f669fa59560f8c2561e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/banjov2/ros2_ws/build/tactigon_msgs",
+		"source" : "/home/banjov2/ros2_ws/src/tactigon_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
