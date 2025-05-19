@@ -21,8 +21,7 @@ Follow the official [ROS2 Jazzy Installation Guide](https://docs.ros.org/en/jazz
 ### 1️⃣ Download and Extract Files
 Download the compressed file containing the following folders:
 ```
-examples/
-tactigon_gear-5.4.0.tar.gz
+models/
 src/
 ```
 Extract the file into a directory named `ros2_ws`:
@@ -35,8 +34,7 @@ cd ~/ros2_ws
 Your workspace structure should look like this:
 ```
 ros2_ws/
-├── examples/
-├── tactigon_gear-5.4.0.tar.gz
+├── models
 └── src/
     ├── tactigon_msgs/          # Custom message definitions
     └── tactigon_ros/           # Python package with nodes
